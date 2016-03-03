@@ -1,0 +1,226 @@
+*{ 
+	margin:0 auto; 
+	font-size: 12px; 
+	font-family: "Microsoft YaHei";
+	color: #666;
+}
+.clearfix:before,.clearfix:after{
+	display: table;
+	content: "";
+}
+.clearfix:after {
+	clear: both;
+}
+.page{
+	background-color: #EEEFF1;
+	height: 1000px;
+	padding-top: 20px;
+}
+.page .top{
+	width: 100%;
+	height: 93px;
+	background-color: #fff;
+	border-bottom: 1px #D7D7D8 solid;
+}
+.page .top .top_inner{
+	width: 1200px;
+	height: 93px;
+	position: relative;
+}
+.page .top .top_inner .left{
+
+}
+
+.page .top .top_inner .left a{
+
+}
+.page .top .top_inner .left b{
+
+}
+.page .top .top_inner .right{
+	width: 260px;
+	height: 44px;
+	line-height: 42px;
+	padding: 0 50px;
+	border:1px solid #f46;
+	background-color: #f46;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	outline: 0;
+	border-radius: 2px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 25px;
+}
+.page .top .top_inner .right:hover{
+	background-color: #E22754;
+}
+
+.page .content{
+	width: 1200px;
+	margin-top: 30px;
+}
+/*左边模块*/
+.page .content .left{
+	width: 840px; 
+	border:1px solid #ddd;
+	border-radius: 2px;
+	background-color: #fff;
+	float: left;
+	padding: 35px 20px 25px 20px;
+}
+
+.page .content .left .title{
+	width: 100%;
+	height: 50px;
+	font-size: 28px;
+	overflow: hidden;
+	line-height: 50px;
+	vertical-align: middle;
+}
+.page .content .left .release{
+	padding:0 0 10px 10px;
+	display: block;
+	width: 830px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.page .content .left .intro{
+	width: 840px;
+
+	margin-top: 20px;
+}
+.page .content .left .intro img{
+	display: block;
+	width: 440px;
+	height: 450px;
+	float: left;
+}
+.page .content .left .intro ul{
+	width: 350px;
+	float: left;
+	list-style: none;
+	margin-top: 20px;
+
+}
+.page .content .left .intro ul li{
+	width: 350px;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: middle;
+	border-bottom: 1px #ccc dashed;
+	font-size: 16px;
+	margin-top: 20px;
+}
+.page .content .left .intro ul .phone{
+	border:0;
+	margin-top: 30px;
+}
+.page .content .left .intro ul .phone img{
+	display: block;
+	width: 36px;
+	height: 36px;
+}
+.page .content .left .intro ul .phone span{
+	font:300 24px/40px Arial;
+	margin-left: 20px;
+}
+.page .content .left .intro ul li label{
+	color: #666;
+	font-size: 16px;
+}
+.page .content .left .intro ul li span{
+	color: #de3438;
+	font:400 30px/32px Arial;
+}
+.page .content .left .headline{
+	width: 840px;
+	height: 36px;
+	background-color: #F7F7F7;
+	border-bottom: 1px #E5E5E5 solid;
+	margin-top: 20px;
+}
+.page .content .left .headline span{
+	width: 120px;
+	height: 34px;
+	background-color: #fff;
+	display: block;
+	float: left;
+	border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-top: 3px solid #de3438;
+    text-align: center;
+    line-height: 34px;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 16px;
+}
+.page .content .left .details{
+	list-style: none;
+	display: block;
+	height: 100px;
+	padding: 0;
+	margin: 20px 0;
+
+}
+.page .content .left .details li{
+	width: 210px;
+	height: 50px;
+	float: left;
+	margin-top: 2px;
+	line-height: 50px; 
+	vertical-align: middle;
+}
+.page .content .left .details li .name{
+	width: 80px;
+	height: 50px;
+	float: left;
+	background-color: #E0E0E0;
+	text-align: center;
+	font: 400 13px/50px "Microsoft YaHei";
+}
+.page .content .left .details li .value{
+	width: 120px;
+	height: 50px;
+	background-color: #F6F6F6;
+	float: left;
+	padding-left: 10px;
+	font: 400 13px/50px "Microsoft YaHei";
+	overflow: hidden;
+}
+.page .content .left .depict{
+	width: 800px;
+	font-size: 18px;
+	color: #666;
+	padding: 10px 20px;
+	line-height: 30px;
+}
+.page .content .left .images{
+	widows: 100%;
+}
+.page .content .left .images img{
+	margin: 5px;
+	width: 410px;
+	height: 300px;
+	display: block;
+	float: left;
+}
+.page .content .left #map{
+	width: 840px;
+	height: 380px;
+	margin-top: 20px;
+}
+/*右边模块*/
+.page .content .right{
+	width: 300px;
+	height: 300px;
+	border:1px solid #ddd;
+	background-color: #fff;
+	float: right;
+}
+
+
+

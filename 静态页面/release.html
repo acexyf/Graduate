@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>免费发布出租房源</title>
+	<link rel="stylesheet" type="text/css" href="css/release.css">
+</head>
+<body>
+	<div class="page">
+		<div class="pagecontent">
+			<ul class="clearfix">
+				<li>
+					<label class="title">
+						<i>*</i>
+						房源类型
+					</label>
+					<div class="cont grene">
+						<ul class="selection clearfix">
+							<li class="active">
+								<span class="span1">住宅</span>
+							</li>
+							<li>
+								<span class="span2">别墅</span>
+							</li>
+							<li>
+								<span class="span3">写字楼</span>
+							</li>
+							<li>
+								<span class="span4">商铺</span>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<label class="title">
+						<i>*</i>
+						出租方式
+					</label>
+					<div class="cont ways">
+						<ul class="selection clearfix">
+							<li class="active">
+								<span class="span5">整租</span>
+							</li>
+							<li>
+								<span class="span6">合租</span>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<label class="title">
+						<i>*</i>
+						小区名称
+					</label>
+					<div class="cont resident">
+						<input type="text" placeholder="使用标准小区名称更利于网友发现">
+					</div>
+				</li>
+				<li>
+					<label class="title">
+						<i>*</i>
+						地址
+					</label>
+					<div class="cont location">
+						<select name="">
+							<option value="姑苏">姑苏</option>
+							<option value="新区">新区</option>
+							<option value="园区">园区</option>
+						</select>
+						<input type="text">
+					</div>
+				</li>
+				<li>
+					<label class="title">
+						<i>*</i>
+						户型
+					</label>
+					<div class="cont layout">
+						<select name="" id="">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+						<span>室</span>
+						<select name="" id="">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+						<span>厅</span>
+						<select name="" id="">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+						<span>卫</span>
+					</div>
+				</li>
+				<li>
+					<label class="title">
+						<i>*</i>
+						建筑面积
+					</label>
+					<div class="cont area">
+						<input type="text">平方米
+					</div>
+				</li>
+				<li>
+					<label class="title">
+						<i>*</i>
+						装修程度
+					</label>
+					<div class="cont decorate">
+						<span>
+							<input id="radio0" type="radio" value="豪华装修" name="decorate_radio">
+							<label for="radio0">豪华装修</label>
+						</span>
+						<span>
+							<input id="radio1" type="radio" value="精装修"  name="decorate_radio">
+							<label for="radio1">精装修</label>
+						</span>
+						<span>
+							<input id="radio2" type="radio" value="中等装修"  name="decorate_radio">
+							<label for="radio2">中等装修</label>
+						</span>
+						<span>
+							<input id="radio3" type="radio" value="简装修"  name="decorate_radio">
+							<label for="radio3">简装修</label>
+						</span>
+						<span>
+							<input id="radio4" type="radio" value="毛坯"  name="decorate_radio">
+							<label for="radio4">毛坯</label>
+						</span>
+					</div>
+				</li>
+				<li>
+					<label class="title">
+						<i>*</i>
+						朝向
+					</label>
+					<div class="cont orient">
+						<select name="" id="">
+							<option value="">东</option>
+							<option value="">东南</option>
+							<option value="">南</option>
+							<option value="">西南</option>
+							<option value="">西</option>
+							<option value="">西北</option>
+							<option value="">北</option>
+							<option value="">东北</option>
+						</select>
+					</div>
+				</li>
+				<li>
+					<label class="title">
+						<i>*</i>
+						楼层
+					</label>
+					<div class="cont storey">
+						<input type="text" class="floor">层，共
+						<input type="text" class="floors">层
+					</div>
+				</li>
+				<li>
+					<label class="title">
+						<i>*</i>
+						租金
+					</label>
+					<div class="cont price">
+						<input type="text" placeholder="0元表示面议">元/月
+					</div>
+				</li>
+				<li>
+					<label class="title">
+						<i>*</i>
+						房源标题
+					</label>
+					<div class="cont housetitle">
+						<input type="text">
+					</div>
+				</li>
+				<li>
+					<label class="title">
+						<i>*</i>
+						房源描述
+					</label>
+					<div class="cont depict">
+						<textarea name="" cols="85" rows="10" style="resize:none;"></textarea>
+					</div>
+				</li>
+				<li>
+					<label class="title">
+						<i>*</i>
+						上传图片
+					</label>
+					<div class="cont picture">
+						请选择上传的图片或文件:<input type="file" name="fileName"/>
+					</div>
+				</li>
+				<li>
+					<label class="title">
+					</label>
+					<div class="cont confirm">
+						<a class="submit">确定发布</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

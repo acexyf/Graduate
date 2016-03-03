@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>搜索</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/search.css">
+<body>
+
+
+<div class="searchbox">
+	<div class="searchbg">
+		<div class="search">
+			<input type="text" class="searchTxt" placeholder="请输入关键字">
+			<input type="button" class="searchBtn" value="搜索">
+		</div>
+	</div>
+</div>
+<div class="page">
+	<div class="guide">
+		
+	</div>
+	<div class="searchmenu">
+		<ul>
+			<li>
+				<span>区域：</span>
+				<a class="active" href="">不限</a>
+				<a href="">常熟</a>
+				<a href="">昆山</a>
+				<a href="">太仓</a>
+				<a href="">吴江</a>
+				<a href="">吴中</a>
+				<a href="">相城</a>
+				<a href="">新区</a>
+				<a href="">园区</a>
+				<a href="">张家港</a>
+				<a href="">姑苏</a>
+			</li>
+			<li>
+				<span>租金：</span>
+				<a class="active" href="">不限</a>
+				<a href="">500元以下</a>
+				<a href="">500-2000元</a>
+				<a href="">2000-4000元</a>
+				<a href="">4000-8000元</a>
+				<a href="">8000元以上</a>
+			</li>
+			<li>
+				<span>户型：</span>
+				<a class="active" href="">不限</a>
+				<a href="">一居</a>
+				<a href="">二居</a>
+				<a href="">三居</a>
+				<a href="">四居</a>
+				<a href="">四居以上</a>
+			</li>
+			<li>
+				<span>租住方式：</span>
+				<a class="active" href="">不限</a>
+				<a href="">整租</a>
+				<a href="">合租</a>
+			</li>
+		</ul>
+
+		<div class="condition">
+			<span>更多找房条件：</span>
+			<div class="select_box">
+				<div class="tag_select">装修</div>
+				<ul>
+					<li>不限</li>
+					<li>毛坯</li>
+					<li>简装修</li>
+					<li>中等装修</li>
+					<li>精装修</li>
+					<li>豪华装修</li>
+				</ul>
+			</div>
+			<div class="select_box">
+				<div class="tag_select">朝向</div>
+				<ul>
+					<li>不限</li>
+					<li>南北通透</li>
+					<li>东西朝向</li>
+					<li>朝东</li>
+					<li>朝西</li>
+					<li>朝南</li>
+					<li>朝北</li>
+				</ul>
+			</div>
+			<div class="select_box">
+				<div class="tag_select">楼层</div>
+				<ul>
+					<li>不限</li>
+					<li>6层以下</li>
+					<li>6-12层</li>
+					<li>12层以上</li>
+				</ul>
+			</div>
+			<!-- <div class="select_box">
+				<div class="tag_select">配套</div>
+			</div> -->
+		</div>
+		
+<!-- 		<div class="condition current">
+			<span>当前找房条件：</span>
+		</div> -->
+	</div>
+	<div class="result_div">
+		<div class="left">
+			
+			<!-- 遍历开始 -->
+			<div class="house" data-houseid="1001">
+				<div class="img">
+					<img src="images/house.jpg">
+				</div>
+				<div class="detail">
+					<p class="title">枫桥 港龙城市商业广场 2室1厅100平米 精装修 押一付三</p>
+					<p class="locate">吴中-银都花园<span>盘山路189号</span></p>
+					<p class="brief">整租<span>|</span>100平方米<span>|</span>精装修<span>|</span>4/6层<span>|</span>朝南</p>
+					<div class="moreInfo">
+						<p class="price"><span>900</span>元/月</p>
+						<p class="layout">2室2厅1卫</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="house" data-houseid="1001">
+				<div class="img">
+					<img src="images/house.jpg">
+				</div>
+				<div class="detail">
+					<p class="title">枫桥 港龙城市商业广场 2室1厅100平米 精装修 押一付三</p>
+					<p class="locate">吴中-银都花园<span>盘山路189号</span></p>
+					<p class="brief">整租<span>|</span>100平方米<span>|</span>精装修<span>|</span>4/6层<span>|</span>朝南</p>
+					<div class="moreInfo">
+						<p class="price"><span>1200</span>元/月</p>
+						<p class="layout">2室2厅1卫</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="house" data-houseid="1001">
+				<div class="img">
+					<img src="images/house.jpg">
+				</div>
+				<div class="detail">
+					<p class="title">枫桥 港龙城市商业广场 2室1厅100平米 精装修 押一付三</p>
+					<p class="locate">吴中-银都花园<span>盘山路189号</span></p>
+					<p class="brief">整租<span>|</span>100平方米<span>|</span>精装修<span>|</span>4/6层<span>|</span>朝南</p>
+					<div class="moreInfo">
+						<p class="price"><span>2300</span>元/月</p>
+						<p class="layout">2室2厅1卫</p>
+					</div>
+				</div>
+			</div>
+			<!-- 遍历结束 -->
+
+
+
+		</div>
+		<div class="right"></div>
+		<div class="clearfix"></div>
+		<div class="pageNum"></div>
+	</div>
+</div>
+
+<script type="text/javascript" src="http://sandbox.runjs.cn/uploads/rs/439/6ooo5acx/jquery.js"></script>
+<script type="text/javascript">
+	$(".searchmenu a").click(function(e){
+		e.preventDefault();
+		$(this).parent("li").children("a.active").removeClass("active");
+		$(this).addClass("active");
+	})
+	$(".select_box").mouseover(function(){
+		$(this).children("ul").css({"display":"block"})
+	})
+	$(".select_box").mouseout(function(){
+		$(this).children("ul").css({"display":"none"})
+	})
+</script>
+</body>
+</html>

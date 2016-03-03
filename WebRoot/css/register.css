@@ -1,0 +1,137 @@
+*{ 
+	margin:0 auto; 
+	font-size: 12px; 
+	font-family: "Microsoft YaHei"
+}
+.clearfix:before,.clearfix:after{
+	display: table;
+	content: "";
+}
+.clearfix:after {
+	clear: both;
+}
+
+.page{ 
+	width:1190px; 
+	height: 417px; 
+	margin-top: 40px; 
+}
+.page .register_wrapper{ 
+	width: 723px; 
+	height: 417px; 
+}
+.page .register_wrapper .register_line{ 
+	padding: 17px 0px;
+}
+.page .register_wrapper .register_line .label{ 
+	width: 95px; 
+	display: inline-block; 
+	text-align: right; 
+	font-size: 14px; 
+	color: #333
+}
+.page .register_wrapper .register_line .label .requred_symbol{ 
+	color: red; 
+	margin-right: 5px;
+	font-size: 14px;
+}
+
+.page .register_wrapper .register_line input{
+	border:1px solid #DDD;
+	height: 32px;
+	border-radius: 2px;
+	color: #666;
+	outline: 0;
+	line-height: 32px;
+	vertical-align: middle;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+.page .register_wrapper .register_line input:focus{
+	border:1px solid #8297B0;
+}
+.page .register_wrapper .register_line input.error{
+	border:1px solid #F60;
+}
+
+.page .register_wrapper .register_line .username_input{
+	width: 260px;
+	background: url(../images/login-name.png) no-repeat;
+	background-position: 240px 5px;
+}
+.page .register_wrapper .register_line .pwd_input{
+	width: 260px;
+	background: url(../images/login-password.png) no-repeat;
+	background-position: 240px 5px;
+}
+
+.page .register_wrapper .register_line .repwd_input{
+	width: 260px;
+	background: url(../images/login-password.png) no-repeat;
+	background-position: 240px 5px;
+}
+
+.page .register_wrapper .register_line .phone_input{
+	width: 260px;
+	background: url(../images/phone.png) no-repeat;
+	background-position: 240px 5px;
+}
+
+.page .register_wrapper .register_line .email_input{
+	width: 260px;
+	background: url(../images/email.png) no-repeat;
+	background-position: 235px 8px;
+}
+.page .register_wrapper .register_line .authcode_input{
+	width: 105px;
+}
+
+.page .register_wrapper .register_line .invalidMsg{
+	height: 32px;
+	line-height: 32px;
+	vertical-align: middle;
+	background-color: #FFF7DC;
+	/*display: inline-block;*/
+	display:none;
+	margin-left: 10px;
+	border:1px solid #f4e09d;
+	padding: 0 10px 0 30px;
+	color: #666;
+	background: url(../images/error.png) no-repeat;
+	background-position: 9px 9px;
+}
+
+.page .register_wrapper .register_line .auth_img{
+	width: 78px;
+	height: 34px;
+	margin-left: 10px;
+	border:0;
+	vertical-align: middle;
+}
+
+.page .register_wrapper .register_line .submitBtn{
+	display: block;
+	width: 220px;
+	height: 42px;
+	line-height: 42px;
+	font: 20px/42px "Microsoft YaHei";
+	text-align: center;
+	background-color: #ff7800;
+	border-radius: 3px;
+	text-decoration: none;
+	outline:0;
+	color: #fff;
+	margin-left: 110px;
+}
+
+.page .register_wrapper .register_line .submitBtn:hover{
+	background-color: #f60;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,250 @@
+*{margin: 0 auto; font-size: 12px; color: #666; padding:0; font-family: "Microsoft YaHei"}
+.clearfix:before,.clearfix:after{display: table;content: "";}
+.clearfix:after {clear: both;}
+
+.page{
+	width: 100%;
+	background: url(../images/mainbg.jpg);
+	background-size: 100% 100%;
+	margin-top: 30px;
+	min-width: 1000px;
+}
+.page .pagecontent{
+	width: 1000px;
+}
+.page .pagecontent ul{
+	list-style: none;
+}
+.page .pagecontent ul li{
+	width: 1000px;
+	height: 60px;
+}
+.page .pagecontent ul li .title{
+	width: 205px;
+	height: 50px;
+	display: block;
+	float: left;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: right;
+	padding-right: 15px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+.page .pagecontent ul li .title i{
+	color: #f00;
+}
+.page .pagecontent ul li .cont{
+	width: 780px;
+	height: 45px;
+	display: block;
+	float: left;
+	padding-top: 5px;
+}
+/*房源类型、出租方式*/
+.page .pagecontent ul li .cont .selection{
+
+}
+.page .pagecontent ul li .cont .selection li{
+	width: 88px;
+	height: 40px;
+	display: block;	
+	border:1px #B3B3B3 solid;
+	margin-right: 10px;
+	float: left;
+	cursor: pointer;
+}
+.page .pagecontent ul li .cont .selection li.active{
+	border:2px #DE3438 solid;
+	height: 38px;
+	background: url(../images/icons.png) right bottom no-repeat;
+}
+.page .pagecontent ul li .cont .selection li span{
+	display: block;
+	height: 38px;
+	font-size: 14px;
+	padding: 0 0 0 40px;
+	color: #666;
+	line-height: 38px;
+	vertical-align: middle;
+}
+.page .pagecontent ul li .cont .selection li .span1{
+	background: url(../images/icons.png) no-repeat;
+	background-position: 12px 10px;
+}
+.page .pagecontent ul li .cont .selection li .span2{
+	background: url(../images/icons.png) no-repeat;
+	background-position: 12px -115px;
+}
+.page .pagecontent ul li .cont .selection li .span3{
+	background: url(../images/icons.png) no-repeat;
+	background-position: 12px -51px;
+}
+.page .pagecontent ul li .cont .selection li .span4{
+	background: url(../images/icons.png) no-repeat;
+	background-position: 12px -176px;
+}
+.page .pagecontent ul li .cont .selection li .span5{
+	background: url(../images/icons.png) no-repeat;
+	background-position: 12px -237px;
+}
+.page .pagecontent ul li .cont .selection li .span6{
+	background: url(../images/icons.png) no-repeat;
+	background-position: 12px -300px;
+}
+.page .pagecontent ul li .cont .selection li.active .span1{
+	background-position: -151px 10px;
+	color: #de3438;
+}
+.page .pagecontent ul li .cont .selection li.active .span2{
+	background-position: -151px -115px;
+	color: #de3438;
+}
+.page .pagecontent ul li .cont .selection li.active .span3{
+	background-position: -151px -51px;
+	color: #de3438;
+}
+.page .pagecontent ul li .cont .selection li.active .span4{
+	background-position: -151px -176px;
+	color: #de3438;
+}
+.page .pagecontent ul li .cont .selection li.active .span5{
+	background-position: -151px -237px;
+	color: #de3438;
+}
+.page .pagecontent ul li .cont .selection li.active .span6{
+	background-position: -151px -300px;
+	color: #de3438;
+}
+/*小区名称*/
+.page .pagecontent ul li .resident input{
+	width: 305px;
+	border:1px solid #ccc;
+	font-size: 14px;
+	padding: 8px;
+	color: #666;
+	outline: 0;
+
+}
+/*地址*/
+.page .pagecontent ul li .location select{
+	width: 80px;
+	height: 30px;
+	color: #888;
+	display: inline-block;
+	line-height: 30px;
+	margin-top: 5px;
+	border:1px solid #ccc;
+}
+.page .pagecontent ul li .location input{
+	width: 295px;
+	padding: 5px;
+	outline: 0;
+	margin-left: 10px;
+	border:1px solid #ccc;
+}
+/*户型*/
+.page .pagecontent ul li .layout select{
+	width: 80px;
+	height: 30px;
+	color: #888;
+	display: inline-block;
+	line-height: 30px;
+	margin-top: 5px;
+	border:1px solid #ccc;
+}
+.page .pagecontent ul li .layout span{
+	margin: 0 10px 0;
+}
+/*建筑面积*/
+.page .pagecontent ul li .area input{
+	width: 108px;
+	padding: 8px;
+	outline: 0;
+	font-size: 14px;
+	vertical-align: middle;
+	border:1px solid #ccc;
+	margin-right: 10px;
+}
+.page .pagecontent ul li .decorate{
+	padding-top: 20px;
+	height: 20px;
+}
+.page .pagecontent ul li .decorate span{
+	margin: 0 10px 0;
+}
+/*朝向*/
+.page .pagecontent ul li .orient select{
+	width: 80px;
+	height: 30px;
+	color: #888;
+	display: inline-block;
+	line-height: 30px;
+	margin-top: 5px;
+	border:1px solid #ccc;
+}
+/*楼层*/
+.page .pagecontent ul li .storey input{
+	width: 108px;
+	padding: 8px;
+	outline: 0;
+	font-size: 14px;
+	vertical-align: middle;
+	border:1px solid #ccc;
+	margin-right: 10px;
+}
+.page .pagecontent ul li .storey .floors{
+	margin-left: 10px;
+} 
+
+/*租金*/
+.page .pagecontent ul li .price input{
+	width: 108px;
+	padding: 8px;
+	outline: 0;
+	font-size: 14px;
+	vertical-align: middle;
+	border:1px solid #ccc;
+	margin-right: 10px;
+}
+/*标题*/
+.page .pagecontent ul li .housetitle input{
+	width: 500px;
+	padding: 8px;
+	outline: 0;
+	font-size: 14px;
+	vertical-align: middle;
+	border:1px solid #ccc;
+}
+/*房源描述*/
+.page .pagecontent ul li .depict{
+	height: 162px;
+}
+
+/*上传图片*/
+.page .pagecontent ul li .picture{
+
+}
+/*确认上传*/
+.page .pagecontent ul li .confirm .submit{
+	text-decoration: none;
+	background-color: #0e8ff1;
+	width: 164px;
+	display: inline-block;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 3px;
+	font-size: 16px;
+	color: #fff;
+	outline: 0;
+	border:0;
+}
+.page .pagecontent ul li .confirm .submit:hover{
+	background-color: #1D9AF8;
+}
+
+
+
+

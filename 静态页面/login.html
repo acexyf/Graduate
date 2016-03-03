@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登陆</title>
+</head>
+<link rel="stylesheet" type="text/css" href="">
+<style type="text/css">
+*{margin: 0 auto; font-size: 12px; color: #666; padding:0;}
+.clearfix:before,.clearfix:after{display: table;content: "";}
+.clearfix:after {clear: both;}
+
+.page{ width: 100%; height: 500px; background-color: #F5F5F5; margin-top: 10px;}
+.page .inner{ width: 1100px; height: 500px;}
+.page .inner .left{ width: 750px; height: 500px; float: left; background:url(images/test.jpg) no-repeat; background-size: 100% 100%;}
+
+.page .inner .right{ width: 350px; height: 450px; background-color: #fff; float: left; margin-top: 25px; }
+.page .inner .right .border{ width: 270px; height: 450px;}
+.page .inner .right .border .error{ width: 270px; height: 30px; background-color: #FFF7DC; border:1px #F4E09D solid; margin-top: 20px;}
+
+.page .inner .right .border .input_div{ width: 270px; height: 30px; border:1px rgb(221, 221, 221) solid; border-radius: 3px;margin-top: 20px;}
+.page .inner .right .border .input_div i{ width: 16px; height: 17px; display:block; float:left; border-right: 1px solid #ddd; padding-right: 10px;margin: 6px 5px 0 10px; }
+.page .inner .right .border .username i{background:url(images/login-name.png) no-repeat;}
+.page .inner .right .border .input_div.focus{ border:1px #8297B0 solid;}
+.page .inner .right .border .pwd i{background:url(images/login-password.png) no-repeat;}
+.page .inner .right .border .input_div input{ width: 218px; background: #fff; border:0; padding: 6px 0 5px 5px; font-family: "Microsoft Yahei"; border-radius: 5px;outline: 0}
+
+.page .inner .right .border .authcode_div{ width: 270px; height: 30px;}
+.page .inner .right .border .authcode_div .authcode{ width:108px; height: 30px; background: #fff;border: 1px solid rgb(221, 221, 221); font-size: 14px; float: left;}
+.page .inner .right .border .authcode_div .authcode input{ width: 100px;}
+.page .inner .right .border .authcode_div .authcode.focus{border:1px #8297B0 solid;}
+.page .inner .right .border .authcode_div .auth_img{ width: 150px; height: 32px; cursor:pointer; float: left; margin-top: 20px}
+
+.page .inner .right .border .autologin_div{ font-size: 14px; margin-top: 20px;}
+
+.page .inner .right .border a{ width:270px; height: 42px; display: block; background-color: #ff7800; border-radius: 3px; text-align: center; line-height: 42px; vertical-align: middle; color: #fff; font-size: 20px; text-decoration: none; outline: 0; font-family: "Microsoft Yahei"; letter-spacing: 5px; cursor: pointer;margin-top: 20px; }
+.page .inner .right .border a:hover{ background-color: #FF6633}
+</style>
+<body>
+<div class="page">
+	<div class="inner">
+		<div class="left"></div>
+		<div class="right">
+			<div class="border">
+				<div class="error"></div>
+				<div class="input_div username">
+					<i></i>
+					<input class="username_input" type="text" name="" value="" placeholder="请输入用户名">
+				</div>
+				<div class="input_div pwd">
+					<i></i>
+					<input class="pwd_input" type="text" name="" value="" placeholder="请输入密码">
+				</div>
+				<div class="authcode_div">
+					<div class="input_div authcode">
+						<input type="text" name="" value="" placeholder="请输入验证码">
+					</div>
+					<div class="auth_img">
+						<img src="images/ValidCode.png">
+					</div>
+					
+				</div>
+				<div class="clearfix"></div>
+				<div class="autologin_div">
+					<input type="checkbox" id="autologin">
+					<label for="autologin">七天内自动登录</label>
+				</div>
+				<a>登录</a>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
